@@ -45,10 +45,12 @@ button {
     flex: 1;
     gap: 32px;
     padding: 80px 0px;
+    flex-wrap: wrap;
 }
 
 .row-2-left, .row-2-right {
-    width: 50%;
+    flex: 1 1 300px;
+    min-height: 200px;
 }
 
 .footer {
@@ -82,14 +84,17 @@ button {
 .cards {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    flex: 1 1 25%;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 10px;
 }
 
 .card-image {
