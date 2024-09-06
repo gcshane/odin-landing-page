@@ -14,6 +14,15 @@ button {
     border-style: none;
 }
 
+img {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .hero {
     background-color: #1f2937;
     padding: 0px 10%;
@@ -45,12 +54,15 @@ button {
     flex: 1;
     gap: 32px;
     padding: 80px 0px;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .row-2-left, .row-2-right {
     flex: 1 1 300px;
     min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .footer {
@@ -90,7 +102,7 @@ button {
 .card {
     display: flex;
     flex-direction: column;
-    flex: 1 1 20%;
+    flex: 1 1 22%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -102,11 +114,18 @@ button {
     border: 5px #3882f6 solid;
     width: 150px;
     height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
     background-color: #e5e7eb;
     padding: 80px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .quote-text {
@@ -131,15 +150,16 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 16px;
     border-radius: 10px;
-    gap: 32px;
+    gap: 16px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .call-to-action > button {
-    border: 1px solid white;
-    flex-basis: 75px;
+    border: 1px solid #e5e7eb;
+    /* flex-basis: 75px; */
 }
 
 .call-to-action-header {
