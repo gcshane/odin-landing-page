@@ -16,7 +16,7 @@ button {
 
 .hero {
     background-color: #1f2937;
-    padding: 0px 150px;
+    padding: 0px 10%;
     color: #e5e7eb;
 }
 
@@ -72,7 +72,7 @@ button {
 }
 
 .information {
-    padding: 0px 200px 80px;
+    padding: 0px 10% 80px;
 }
 
 .information-header {
@@ -90,7 +90,7 @@ button {
 .card {
     display: flex;
     flex-direction: column;
-    flex: 1 1 25%;
+    flex: 1 1 20%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -106,7 +106,7 @@ button {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 80px 200px;
+    padding: 80px 10%;
 }
 
 .quote-text {
@@ -126,17 +126,20 @@ button {
 
 .call-to-action {
     color: #e5e7eb;
-    margin: 80px 150px;
+    margin: 80px 20%;
     background-color: #3882f6;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
     border-radius: 10px;
+    gap: 32px;
+    flex-wrap: wrap;
 }
 
 .call-to-action > button {
     border: 1px solid white;
+    flex-basis: 75px;
 }
 
 .call-to-action-header {
